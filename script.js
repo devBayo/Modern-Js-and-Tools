@@ -22,6 +22,7 @@ console.log(cart); // Imports are live connections
 
 */
 
+/*
 // The previous module pattern
 const ShoppingCart2 = (function () {
   const cart = [];
@@ -50,3 +51,21 @@ console.log(ShoppingCart2);
 ShoppingCart2.addToCart('bread', 8);
 console.log(ShoppingCart2.cart);
 // console.log(ShoppingCart2.shopStuffs);
+*/
+
+/*
+Other module patterns
+- AMD modules
+- CommonJS modules
+*/
+
+// Common JS Modules (doesn't work in normal javascript, it's meant for node)
+
+// Export
+// export.addToCart = function (product, quantity) {
+// cart.push({ product, quantity });
+// console.log(`${quantity} ${product} added to cart`);
+// };
+
+/// Import
+// const { addToCart } = require('./shoppingCart.js');
