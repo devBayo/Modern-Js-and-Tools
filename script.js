@@ -17,4 +17,4 @@ import { cart } from './shoppingCart.js';
 add('pizza', 9);
 add('bread', 2);
 add('orange', 5);
-console.log(cart);
+console.log(cart); // Imports are live connections
