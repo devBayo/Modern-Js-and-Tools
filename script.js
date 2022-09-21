@@ -86,6 +86,31 @@ console.log(stateDeepClone);
 // Bundling with parcel
 
 // Keeps the brower's state
-if (module.hot) {
-  module.hot.accept();
+// if (module.hot) {
+//   module.hot.accept();
+// }
+module.hot?.accept();
+
+
+// Configuring babel and polifiling
+class Person {
+  greeting = ' Hello ';
+  constructor(name) {
+    this.name = name;
+  }
+
+  greet() {
+    console.log(this.name + this.greeting);
+  }
 }
+
+const bayo = new Person('bayo');
+bayo.greet();
+
+cart.find(el => el.quantity > 2);
+Promise.resolve('Test').then(x => console.log(x));
+
+import 'core-js/stable ';
+
+// Polifiling async functions
+import 'regenerator-runtime/runtime';

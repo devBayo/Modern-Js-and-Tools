@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/devBayo/Modern-Js-and-Tools#readme",
   "dependencies": {
-    "leaflet": "^1.8.0",
-    "lodash-es": "^4.17.21"
+    "core-js": "^3.6.5",
+    "lodash-es": "^4.17.15",
+    "regenerator-runtime": "^0.13.9"
   },
   "devDependencies": {
     "parcel": "^2.7.0"
