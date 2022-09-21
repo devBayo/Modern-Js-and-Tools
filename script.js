@@ -68,7 +68,8 @@ Other module patterns
 // const { addToCart } = require('./shoppingCart.js');
 
 // Working With lodash
-import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
+// import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
+import cloneDeep from 'lodash-es/cloneDeep ';
 
 const state = {
   user: { isUser: true },
@@ -83,3 +84,8 @@ console.log(stateClone);
 console.log(stateDeepClone);
 
 // Bundling with parcel
+
+// Keeps the brower's state
+if (module.hot) {
+  module.hot.accept();
+}
