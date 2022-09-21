@@ -1,4 +1,3 @@
-/*
 // Importing module
 console.log('importing modules');
 // import { addToCart } from './shoppingCart.js';
@@ -19,8 +18,6 @@ add('pizza', 9);
 add('bread', 2);
 add('orange', 5);
 console.log(cart); // Imports are live connections
-
-*/
 
 /*
 // The previous module pattern
@@ -84,3 +81,5 @@ state.user.isUser = false;
 
 console.log(stateClone);
 console.log(stateDeepClone);
+
+// Bundling with parcel
