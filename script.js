@@ -69,3 +69,18 @@ Other module patterns
 
 /// Import
 // const { addToCart } = require('./shoppingCart.js');
+
+// Working With lodash
+import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
+
+const state = {
+  user: { isUser: true },
+};
+
+const stateClone = Object.assign({}, state);
+const stateDeepClone = cloneDeep(state);
+
+state.user.isUser = false;
+
+console.log(stateClone);
+console.log(stateDeepClone);
