@@ -1,0 +1,22 @@
+{
+  "name": "modern-js-and-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devBayo/Modern-Js-and-Tools.git"
+  },
+  "author": "Bayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devBayo/Modern-Js-and-Tools/issues"
+  },
+  "homepage": "https://github.com/devBayo/Modern-Js-and-Tools#readme",
+  "dependencies": {
+    "leaflet": "^1.8.0"
+  }
+}
