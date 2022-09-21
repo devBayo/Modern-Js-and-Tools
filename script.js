@@ -5,3 +5,7 @@
 // console.log(price, quantity);
 
 console.log('Importing Module');
+import * as ShoppingCart from './shoppingCart.js';
+
+ShoppingCart.addToCart('Oranges', 4);
+console.log(ShoppingCart.totalPrice);
