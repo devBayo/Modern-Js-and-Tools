@@ -91,7 +91,7 @@ console.log(stateDeepClone);
 // }
 module.hot?.accept();
 
-
+/*
 // Configuring babel and polifiling
 class Person {
   greeting = ' Hello ';
@@ -114,3 +114,5 @@ import 'core-js/stable ';
 
 // Polifiling async functions
 import 'regenerator-runtime/runtime';
+
+*/
